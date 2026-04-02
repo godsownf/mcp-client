@@ -7,7 +7,7 @@
     "directory": "dist/client"
   },
   "vars": {
-    "HOST": "<PLACEHOLDER_HOST>"
+    "HOST": "https://mcp-client.loaded.workers.dev"
   },
   "durable_objects": {
     "bindings": [
