@@ -7,7 +7,7 @@
 	"scripts": {
 		"start": "vite dev",
 		"build": "vite build",
-		"deploy": "npx wrangler deploy --var HOST:$(./get-subdomain.sh)",
+		"deploy": "npx wrangler deploy --var https://mcp-client.loaded.workers.dev",
 		"type-check": "tsc --noEmit"
 	},
 	"dependencies": {
