@@ -2,12 +2,12 @@
 	"name": "mcp-client",
 	"private": true,
 	"keywords": [],
-	"author": "",
+	"author": "godsownf",
 	"type": "module",
 	"scripts": {
 		"start": "vite dev",
 		"build": "vite build",
-		"deploy": "npx wrangler deploy --var https://mcp-client.loaded.workers.dev",
+		"deploy": "npx wrangler deploy --var HOST:$(./get-subdomain.sh)",
 		"type-check": "tsc --noEmit"
 	},
 	"dependencies": {
@@ -18,6 +18,7 @@
 	},
 	"devDependencies": {
 		"@cloudflare/vite-plugin": "^1.30.3",
+		"@supabase/supabase-js: "^2.8.2",
 		"@cloudflare/workers-types": "^4.20260402.1",
 		"@types/react": "^19.2.14",
 		"@types/react-dom": "^19.2.3",
