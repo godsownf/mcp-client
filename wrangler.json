@@ -7,7 +7,7 @@
     "directory": "dist/client"
   },
   "vars": {
-    "HOST": "https://mcp-client.loaded.workers.dev"
+    "HOST": "HOST=http://localhost:5173"
   },
   "durable_objects": {
     "bindings": [
