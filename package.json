@@ -5,7 +5,8 @@
 	"author": "godsownf",
 	"type": "module",
 	"scripts": {
-		"start": "vite dev",
+		"install": "npm install"
+		"start": "npm start",
 		"build": "vite build",
 		"deploy": "npx wrangler deploy --var HOST:$(./get-subdomain.sh)",
 		"type-check": "tsc --noEmit"
